@@ -1,15 +1,33 @@
-h1{
-    color: #f70606;
-    background-color: #8a0000;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
-
-    
-}
+    body{
+        font-family: 'Poppins', sans-serif;
+        margin: 0px;
+    }
+    .orange{
+        color: orange;
+    }
+    h1{
+        font-size: 50px;
+    }
+    section{
+        display: flex;
+    }
+    .bakcraund-banner{
+        background-image: url(images/top-banner.png);
+        background-repeat: no-repeat;
+    }
+    .half-width{
+        width: 50%;
+        padding-left: 2%;
+        
+    }
+    .half-width img{
+        width: 80%;
+    }
+    .link-button{
+        text-decoration: none;
+        background-image: linear-gradient(orange, tomato);
+        padding: 10px 40px;
+        border-radius: 5px;
+        font-weight: 700;
+        color: white;
+    }
