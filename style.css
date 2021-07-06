@@ -10,10 +10,16 @@
     }
     section{
         display: flex;
+        margin-bottom: 150px;
     }
     .bakcraund-banner{
         background-image: url(images/top-banner.png);
         background-repeat: no-repeat;
+    }
+    .dream-big{
+        background-image: url(images/dream-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
     }
     .half-width{
         width: 50%;
