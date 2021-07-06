@@ -8,11 +8,11 @@
     h1{
         font-size: 50px;
     }
-    section{
+    .flexible-container{
         display: flex;
         margin-bottom: 150px;
     }
-    .bakcraund-banner{
+    .bakcgraund-banner{
         background-image: url(images/top-banner.png);
         background-repeat: no-repeat;
     }
@@ -36,4 +36,31 @@
         border-radius: 5px;
         font-weight: 700;
         color: white;
+    }
+    .Experiences-item{
+        box-shadow: 10px 10px 40px grey;
+        width: 40%;
+        margin-left: 4%;
+        margin-right: 4%;
+        padding-left: 20px;
+        border-radius: 10px;
+       
+    }
+    .experiences-area{
+        background-image: url(images/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    #devoloper-Experiences{
+        border-left: 7px solid;
+        border-image: linear-gradient(#1900ffea, #09f3e0);
+        border-image-slice: 1;
+    }
+    #full-devoloper-Experiences{
+        border-left: 7px solid;
+        border-image: linear-gradient(hsla(345, 90%, 51%, 0.966), #e630cd);
+        border-image-slice: 1;
+    }
+    footer p {
+        text-align: center;
     }
